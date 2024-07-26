@@ -1,0 +1,62 @@
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#weather-card {
+  display: flex;
+  flex-flow: column wrap;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  align-content: center;
+  background-color: pink;
+  border: 5px solid lightblue;
+  border-radius: 3%;
+}
+
+#city-weather-card {
+  font-size: x-large;
+}
+
+#icon-weather-card {
+  float: left;
+}
+
+#description-weather-card {
+  float: right;
+}
+
+#forecast-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#forecast-card {
+  display: flex;
+  flex-flow: column wrap;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  align-content: center;
+  background-color: pink;
+  border: 5px solid lightblue;
+  border-radius: 3%;
+  padding: 10px;
+  margin: 5px;
+}
+
+#icon-forecast-card {
+  float: left;
+}
+
+#description-forecast-card {
+  float: right;
+}

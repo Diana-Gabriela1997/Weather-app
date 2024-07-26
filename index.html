@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <label class="roboto-medium" for="city">Vremea pentru: </label>
+      <input class="roboto-medium" type="text" id="city" value="Campina" />
+    </div>
+    <button class="roboto-bold" id="show-weather">Afiseaza vremea</button>
+    <button class="roboto-bold" id="show-forecast">
+      Afiseaza prognoza meteo
+    </button>
+    <br />
+    <br />
+    <div id="weather-container"></div>
+    <br />
+    <br />
+    <div id="forecast-title"></div>
+    <div id="forecast-container"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
